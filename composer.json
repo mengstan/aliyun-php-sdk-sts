@@ -1,0 +1,30 @@
+{
+    "name": "mengstan/aliyun-php-sts",
+    "description": "aliyun-php-sdk-sts",
+    "keywords": ["aliyun", "sts"],
+    "homepage": "https://github.com/mengstan/aliyun-php-sdk-sts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mengstan",
+            "email": "test@mengstan.com",
+            "homepage": "http://mengstan.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "mengstan/aliyun-php-core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mengstan\\aliyunSts\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
